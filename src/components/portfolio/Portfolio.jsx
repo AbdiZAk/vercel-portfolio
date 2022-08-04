@@ -23,7 +23,7 @@ const Portfolio = () => {
                 <h6>Recent Projects</h6>
                 <h2>Projects</h2>
             </div>
-            <div className="container portfolio__container">
+            <div className="container portfolio__container" id="portfolio-container">
                 {CreateProjectCards}
             </div>
 
