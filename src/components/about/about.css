@@ -29,7 +29,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.8rem;
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -64,6 +64,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    padding: 0 12rem;
 }
 
 
@@ -78,6 +79,11 @@
 
     .about__content p {
         margin: 1rem 0;
+        padding: 0 2rem;
+    }
+
+    .about__cards {
+        width: 80%;
     }
 
 
@@ -103,6 +109,7 @@
 
     .about__content p {
         margin: 1.5rem 0;
+        padding: 0;
     }
 }
 

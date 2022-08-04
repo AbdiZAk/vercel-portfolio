@@ -7,6 +7,11 @@
 }
 
 
+#portfolio {
+    width: 60%;
+    gap: 2rem;
+}
+
 .portfolio__card {
     background: var(--color-bg-variant);
     border: 2px solid var(--color-bg-variant);
