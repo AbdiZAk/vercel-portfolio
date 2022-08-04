@@ -1,0 +1,108 @@
+.contact__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+form {
+    max-width:420px;
+    margin:50px auto;
+
+}
+
+.feedback-input {
+    color: #d1dde3;
+    font-weight:500;
+    font-size: 17px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus, .feedback-input:hover{
+    border:2px solid #00FF00FF;
+    transform: scale(1.03);
+    transition: var(--transition);
+    background: var(--color-bg-variant);
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+ .submit{
+    width: 100%;
+    background: var(--color-gold);
+    border: 2px solid var(--color-gold);
+    border-radius:5px;
+    cursor:pointer;
+    color: #041e67;
+    padding-top:10px;
+    font-size: 1.4rem;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight: bold;
+}
+.submit:hover {
+    background: #07bb0c;
+    border: 2px solid #07bb0c;
+    color: #1c192d;
+}
+
+.contact__options > div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    border-radius: 0.7rem ;
+    border: 2px solid var(--color-gold);
+    padding: 1rem 0.7rem;
+    margin: 1rem auto;
+    transition: var(--transition);
+}
+
+.contact__options > div:hover {
+    background: var(--color-bg-variant);
+    border-color: var(--color-bg-variant);
+    transform: scale(1.04);
+}
+
+
+
+
+/* =========== Media queries medium ============*/
+@media screen and (max-width: 1024px){
+    .contact__container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__options > div {
+        width: 50%;
+    }
+}
+
+
+/* =========== Media queries small ============*/
+@media screen and (max-width: 600px) {
+    .contact__options > div {
+        width: 80%;
+        overflow: scroll;
+    }
+
+    input {
+        -webkit-appearance: none;
+    }
+}
+

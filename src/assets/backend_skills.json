@@ -1,0 +1,27 @@
+[
+  {
+    "key": 1,
+    "title": "Node JS",
+    "level": "Intermediate"
+  },
+  {
+    "key": 2,
+    "title": "Django",
+    "level": "Intermediate"
+  },
+  {
+    "key": 3,
+    "title": "PostgresSQL",
+    "level": "Basic"
+  },
+  {
+    "key": 4,
+    "title": "MySQL",
+    "level": "Intermediate"
+  },
+  {
+    "key": 5,
+    "title": "Python",
+    "level": "Experienced"
+  }
+]

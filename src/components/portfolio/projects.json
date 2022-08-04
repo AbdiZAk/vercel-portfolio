@@ -1,0 +1,29 @@
+[
+  {
+    "key": 1,
+    "img": "weatherapp.PNG",
+    "description": "This is a Full Stack Weather App that I've created With Node.Js Express and Two APIs for weather data and autocomplete. ",
+    "githublink": "https://github.com/AbdiZAk/FullStack-Weather-App",
+    "demolink": "https://ayweather.herokuapp.com"
+  },
+  {
+    "key": 2,
+    "img": "todoapp.PNG",
+    "description": "Django TodoApp using PostgresSQL and The app also handles user authentication as users are able to create an account and login.",
+    "githublink": "https://github.com/AbdiZAk/Django_Todo_App",
+    "demolink": "https://aytodoapp.herokuapp.com"
+  },
+  {
+    "key": 3,
+    "vid": "googlemapsdemo.mp4",
+    "description": "Simple google Maps clone with Python Folium map and six different APIs to creat an interactive map.",
+    "githublink": "https://github.com/AbdiZAk/Python-Projects/tree/main/Simple-Google-Maps-Clone"
+  },
+  {
+    "key": 4,
+    "img": "github.jpg",
+    "description": "Get the gist of a song using the name of the song and artist with Musixmatch API Microsoft Azures's Cognative Services.",
+    "githublink": "https://github.com/AbdiZAk/Python-Projects/tree/main/Gist-Of-Song"
+  }
+
+]

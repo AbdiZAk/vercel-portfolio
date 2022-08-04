@@ -1,0 +1,27 @@
+[
+  {
+    "key": 1,
+    "title": "HTML",
+    "level": "Experienced"
+  },
+  {
+    "key": 2,
+    "title": "CSS",
+    "level": "Experienced"
+  },
+  {
+    "key": 3,
+    "title": "JavaScript",
+    "level": "Intermediate"
+  },
+  {
+    "key": 4,
+    "title": "React",
+    "level": "Intermediate"
+  },
+  {
+    "key": 5,
+    "title": "Bootstrap",
+    "level": "Intermediate"
+  }
+]
