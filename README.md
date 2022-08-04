@@ -1,10 +1,7 @@
+# https://ayyusuf.herokuapp.com/
 # Portfolio App
 
-This project created using React Js.
+This project was created using React Js.
 
-## Deploying to Netlify once finished
 
-Lists options to contact and download Resume
-
-### `Link to netlify`
-
+`
