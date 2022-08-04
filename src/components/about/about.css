@@ -109,7 +109,12 @@
 
     .about__content p {
         margin: 1.5rem 0;
-        padding: 0;
+        padding: 0 1rem;
+    }
+
+    .about__card {
+        padding: 0.7rem;
+    
     }
 }
 
