@@ -7,7 +7,7 @@ export const lightTheme = {
     toggleBorder: '#FFF',
     background: '#065930',
     h5: '#9b9bc9',
-    AborderColor: '#160441',
+    AborderColor: '#3c09b7',
     navBg: 'rgba(29,29,39,0.87)',
 
 }

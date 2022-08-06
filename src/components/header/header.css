@@ -90,7 +90,7 @@ header {
 }
 
 .scroll__down:hover{
-    color: white;
+    color: var(--color-primary);
 }
 
 
