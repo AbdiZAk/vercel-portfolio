@@ -41,11 +41,10 @@ textarea {
 
  .submit{
     width: 100%;
-    background: var(--color-gold);
-    border: 2px solid var(--color-gold);
+    background: var(--color-primary);
+    border: 2px solid var(--color-primary);
     border-radius:5px;
     cursor:pointer;
-    color: #041e67;
     padding-top:10px;
     font-size: 1.4rem;
     padding-bottom:10px;
@@ -54,9 +53,8 @@ textarea {
     font-weight: bold;
 }
 .submit:hover {
-    background: #07bb0c;
-    border: 2px solid #07bb0c;
-    color: #1c192d;
+    background: #2989BBFF;
+    border: 2px solid #2989BBFF;
 }
 
 .contact__options > div {
