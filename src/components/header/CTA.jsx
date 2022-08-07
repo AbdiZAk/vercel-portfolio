@@ -2,20 +2,13 @@ import React from 'react';
 import Resume from '../../assets/resume.pdf'
 import { BiDownload } from 'react-icons/bi'
 import { BsFillChatLeftDotsFill } from 'react-icons/bs'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+import {ToastSuccess} from '../toastify/Toastify'
 
 const CTA = () => {
-    const notify = () => toast.success('Resume Downloaded!', {
-        position: "bottom-left",
-        autoClose: 1000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-    });
-
+    const notify = () =>{
+        ToastSuccess()
+    }
     return (
         <div className='cta'>
             <a href={Resume}  className='btn' download onClick={notify}> Download Resume <BiDownload className={'cta__icon'}/></a>
@@ -30,7 +23,7 @@ const CTA = () => {
                 pauseOnFocusLoss
                 draggable
                 pauseOnHover
-                theme={"dark"}
+                theme={"light"}
             />
         </div>
 

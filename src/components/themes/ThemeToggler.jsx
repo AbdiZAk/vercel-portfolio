@@ -1,8 +1,9 @@
 
 
-export const ThemeToggler = (isDarkMode, setIsDarkMode) => {
-    setIsDarkMode(!isDarkMode)
+export const ThemeToggler = (isDarkMode) => {
+
     if(!isDarkMode){
+
         document.documentElement.style.setProperty('--color-bg-variant', '#292931');
         document.documentElement.style.setProperty('--color-white', '#707E86FF');
         document.documentElement.style.setProperty('--color-gold', '#8f83f8');

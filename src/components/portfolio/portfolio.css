@@ -20,6 +20,7 @@
     border-radius: 1rem ;
     padding: 1rem 0.9rem;
     margin: 0 auto;
+    transition: var(--transition);
 }
 
 .portfolio__card:hover {
@@ -62,12 +63,11 @@ video {
 
 .portfolio__content > a {
     margin-right: 0.7rem;
-    color: white;
     padding: 0.7rem 2rem;
 }
 
 .portfolio__content .btn-primary {
-    background: black;
+    background: var(--color-primary);
 }
 
 

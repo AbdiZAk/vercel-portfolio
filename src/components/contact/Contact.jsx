@@ -4,8 +4,8 @@ import { MdEmail } from 'react-icons/md'
 import { RiWhatsappFill } from 'react-icons/ri'
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+import { ToastSuccess, emailError} from "../toastify/Toastify";
 
 const Contact = () => {
 
@@ -17,27 +17,10 @@ const Contact = () => {
         emailjs.sendForm('service_3smioqe', 'template_iww1b6o', form.current, 'nsVYB6iTlGO0Bq6l1')
             .then((result) => {
                 e.target.reset()
-                toast.success('Message Sent Successfully!', {
-                    position: "bottom-left",
-                    autoClose: 3000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                });
+                ToastSuccess()
         }, (error) => {
-                toast.error('Failed To Send Message!', {
-                    position: "bottom-left",
-                    autoClose: 3000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                });
+                emailError()
             })
-
 
     }
 

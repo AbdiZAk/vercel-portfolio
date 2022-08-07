@@ -12,16 +12,14 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: bold;
   }
 
-  .btn {
-     border-color: ${({theme}) => theme.AborderColor};
-     color: ${({theme}) => theme.PrimaryColor};
-  }
-
-  .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
-  }
+  // .btn {
+  //   border-color: ${({theme}) => theme.AborderColor};
+  //   color: ${({theme}) => theme.BgVarinat};
+  // }
   
+  .btn-primary{
+    
+  }
   nav {
     background: ${({theme}) => theme.navBg};
     
