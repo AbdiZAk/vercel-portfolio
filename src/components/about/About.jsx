@@ -1,7 +1,6 @@
 import React from 'react';
 import './about.css'
 import {FaAward} from "react-icons/fa";
-import {FiUsers} from "react-icons/fi";
 import {FiGrid} from 'react-icons/fi'
 
 const About = () => {
@@ -23,11 +22,6 @@ const About = () => {
                             <h5>Experience</h5>
                             <small>2+ Years of Coding</small>
                         </article>
-                        {/*<article className="about__card">*/}
-                        {/*    <FiUsers className={'icons'}/>*/}
-                        {/*    <h5>Clients</h5>*/}
-                        {/*    <small>200+ WorldWide</small>*/}
-                        {/*</article>*/}
                         <article className="about__card">
                             <FiGrid className={'icons'}/>
                             <h5>Projects</h5>
@@ -35,10 +29,10 @@ const About = () => {
                         </article>
                     </div>
 
-                    <p> I'm Full Stack Developer with a curious mind that is constantly learning and experimenting
-                        with new technologies. I'm always working on personal projects to  become proficient
-                        at the technologies I'm learning. I spend my free time outdoors with friends and family
-                        or at the local park playing soccer.
+                    <p> I'm a <span>Full Stack Developer</span> with a curious mind that is constantly learning.
+                        I'm always working on personal projects to become proficient with new technologies.
+                        I spend my free time outdoors with friends and family.
+                        On the afternoons I like to go to the local park to swim or play soccer.
 
                     </p>
                 </div>

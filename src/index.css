@@ -153,20 +153,11 @@ img {
 
 
 }
-.toggler {
 
+
+span {
+    color: var(--color-gold);
 }
-
-.sun, .moon {
-    cursor: pointer;
-    background: white;
-    color: #0d0d0e;
-    padding: 0.2rem;
-    border-radius: 1rem;
-    font-size: 1.5rem;
-}
-
-
 
 
 
@@ -187,6 +178,10 @@ img {
 @media screen and (max-width: 600px){
     .container {
         width: var(--container-width-sm);
+    }
+
+    .toast {
+        display: none;
     }
 
     section >h2 {

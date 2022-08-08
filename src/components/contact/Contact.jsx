@@ -4,12 +4,20 @@ import { MdEmail } from 'react-icons/md'
 import { RiWhatsappFill } from 'react-icons/ri'
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
-import { ToastContainer } from 'react-toastify';
-import { ToastSuccess, emailError} from "../toastify/Toastify";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
     const form = useRef()
+    const localTheme = localStorage.getItem('Theme')
+    const toastTheme = localTheme ? localTheme: 'light'
+
+    if (window.innerWidth < 600) {
+        toast.dismiss();
+        console.log('mobile')
+    }
+
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -17,9 +25,11 @@ const Contact = () => {
         emailjs.sendForm('service_3smioqe', 'template_iww1b6o', form.current, 'nsVYB6iTlGO0Bq6l1')
             .then((result) => {
                 e.target.reset()
-                ToastSuccess()
+                toast.success("Message Send!")
         }, (error) => {
-                emailError()
+                toast.error("Error Sending Message!", {
+                   position: "bottom-left"
+                })
             })
 
     }
@@ -37,16 +47,11 @@ const Contact = () => {
                     <textarea name="message" className="feedback-input" placeholder="Message"/>
                     <input type="submit" className={'submit'} value="Send"/>
                     <ToastContainer
-                        toastStyle={{height: "40px", padding: "0.4rem 0.3rem", backgroundColor: "#270F4DFF", color: "#07bb0c", }}
-                        position="bottom-left"
-                        hideProgressBar={false}
-                        newestOnTop={false}
-                        closeOnClick
-                        rtl={false}
-                        pauseOnFocusLoss
-                        draggable
-                        pauseOnHover
-                        theme={"dark"}
+                        className={'toast'}
+                        position={"bottom-left"}
+                        theme={toastTheme}
+                        autoClose={2000}
+                        limit={3}
                     />
                 </form>
 

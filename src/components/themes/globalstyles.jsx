@@ -11,15 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({theme}) => theme.h5};
     font-weight: bold;
   }
-
-  // .btn {
-  //   border-color: ${({theme}) => theme.AborderColor};
-  //   color: ${({theme}) => theme.BgVarinat};
-  // }
   
-  .btn-primary{
-    
-  }
   nav {
     background: ${({theme}) => theme.navBg};
     
