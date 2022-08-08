@@ -1,7 +1,7 @@
 # https://ayyusuf.herokuapp.com/
 # Portfolio App
 
-This project was created using React Js.
+I created my Porfolio Site Using React. 
 
 
 `
