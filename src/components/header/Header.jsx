@@ -1,7 +1,7 @@
 import React, { useState }from 'react';
 import './header.css'
 import CTA from "./CTA";
-import Me from "../../assets/img/me.jpg"
+import Me from "../../assets/img/me2.JPG"
 import HeaderSocials from "./HeaderSocials";
 import { BsFillArrowDownSquareFill } from 'react-icons/bs'
 
