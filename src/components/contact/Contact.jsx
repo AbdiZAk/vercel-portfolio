@@ -25,7 +25,7 @@ const Contact = () => {
         emailjs.sendForm('service_3smioqe', 'template_iww1b6o', form.current, 'nsVYB6iTlGO0Bq6l1')
             .then((result) => {
                 e.target.reset()
-                toast.success("Message Send!")
+                toast.success("Message Sent!")
         }, (error) => {
                 toast.error("Error Sending Message!", {
                    position: "bottom-left"
