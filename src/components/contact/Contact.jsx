@@ -15,7 +15,6 @@ const Contact = () => {
 
     if (window.innerWidth < 600) {
         toast.dismiss();
-        console.log('mobile')
     }
 
 
