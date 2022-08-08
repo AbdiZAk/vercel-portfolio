@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const CTA = () => {
     const notify = () =>{
         // ToastSuccess('Resume Downloaded!')
-        console.log('hello')
+
         toast.success('Resume Downloaded',
             {
                 position:"bottom-left",

@@ -31,8 +31,7 @@ const About = () => {
 
                     <p> I'm a <span>Full Stack Developer</span> with a curious mind that is constantly learning.
                         I'm always working on personal projects to become proficient with new technologies.
-                        I spend my free time outdoors with friends and family.
-                        On the afternoons I like to go to the local park to swim or play soccer.
+                        I spend my free time outdoors with friends and family and on the afternoons I like to go to the local park to swim or play soccer.
 
                     </p>
                 </div>

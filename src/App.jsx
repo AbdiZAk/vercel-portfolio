@@ -25,7 +25,7 @@ const StyledApp =  styled.div`
 const App = () => {
     const localTheme = localStorage.getItem('Theme')
     const [isDarkMode, setIsDarkMode] = useState(localTheme === 'dark')
-    console.log(typeof localTheme)
+
     ThemeToggler(isDarkMode)
 
     const handleChangeTheme = () => {

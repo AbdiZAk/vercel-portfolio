@@ -107,12 +107,11 @@ a:hover{
 .btn {
     width: max-content;
     display: inline-block;
-    /*color: var(--color-primary);*/
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
     font-weight: bold;
-    border: 1px solid var(--color-gold);
+    border: 2px solid var(--color-gold);
     transition: var(--transition);
 }
 
@@ -129,15 +128,6 @@ a:hover{
     color: var(--color-bg);
 }
 
-img {
-    /*background: linear-gradient(var(--color-primary), transparent);*/
-    /*display: block;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*object-fit: cover;*/
-    /*overflow: hidden;*/
-    /*padding: 5rem 1.5rem 1.5rem 5rem;*/
-}
 
 .toggle {
     position: absolute;
