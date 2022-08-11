@@ -4,7 +4,6 @@ import './portfolio.css'
 import Data from './projects.json'
 import PortfolioCard from "./PortfolioCard";
 
-
 const CreateProjectCards = Data.map((project =>{
     return (
         <PortfolioCard

@@ -18,17 +18,20 @@ import { GlobalStyles } from './components/themes/globalstyles'
 import {ThemeToggler} from './components/themes/ThemeToggler'
 import DayNightToggle from 'react-day-and-night-toggle'
 
+
 const StyledApp =  styled.div`
   
 `
 
 const App = () => {
     const localTheme = localStorage.getItem('Theme')
+    // Theme Hook
     const [isDarkMode, setIsDarkMode] = useState(localTheme === 'dark')
 
     ThemeToggler(isDarkMode)
 
     const handleChangeTheme = () => {
+
         toast.success('Theme Changed', {
             position: 'bottom-left',
         })
@@ -44,6 +47,7 @@ const App = () => {
     }
 
     return (
+
         <ThemeProvider theme={!isDarkMode ? lightTheme: darkTheme}>
             <GlobalStyles />
             <StyledApp>

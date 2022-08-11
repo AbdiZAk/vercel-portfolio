@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './contact.css'
 import { MdEmail } from 'react-icons/md'
 import { RiWhatsappFill } from 'react-icons/ri'
@@ -6,6 +6,7 @@ import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Modal from "../modal/Modal";
 
 const Contact = () => {
 
@@ -17,19 +18,39 @@ const Contact = () => {
         toast.dismiss();
     }
 
+    // Modal Hook
+    const [showModal, setShowModal] = useState(false)
 
+    // Send Email
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_3smioqe', 'template_iww1b6o', form.current, 'nsVYB6iTlGO0Bq6l1')
             .then((result) => {
+
                 e.target.reset()
                 toast.success("Message Sent!")
+                setShowModal(true)
+
+                setTimeout(() => {
+                    setShowModal(false)
+
+                },2000)
+
         }, (error) => {
+
                 toast.error("Error Sending Message!", {
                    position: "bottom-left"
                 })
+                setShowModal(true)
+
+                    setTimeout(() => {
+                        setShowModal(false)
+
+                    },2000)
+
             })
+
 
     }
 
@@ -39,12 +60,20 @@ const Contact = () => {
                 <h6>Contact Me</h6>
                 <h2>Contacts</h2>
             </div>
+
             <div className="container contact__container">
                 <form ref={form} onSubmit={sendEmail}>
                     <input name="name" type="text" className="feedback-input" placeholder="Name" required/>
                     <input name="email" type="text" className="feedback-input" placeholder="Email" required/>
                     <textarea name="message" className="feedback-input" placeholder="Message"/>
                     <input type="submit" className={'submit'} value="Send"/>
+                    <Modal
+                        title={'Message Sent'}
+                        show={showModal}
+                        close={() => setShowModal(false)}
+
+                    />
+
                     <ToastContainer
                         className={'toast'}
                         position={"bottom-left"}
