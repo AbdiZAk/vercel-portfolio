@@ -8,7 +8,6 @@ const Modal = (props) => {
             return null
         }
 
-
     return (
 
         <div className={`modal ${props.show ? 'show': ''}`}>
@@ -26,4 +25,5 @@ const Modal = (props) => {
         </div>
     )
 }
+
 export default Modal;

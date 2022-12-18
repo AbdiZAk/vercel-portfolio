@@ -9,7 +9,6 @@ const CreateProjectCards = Data.map((project =>{
         <PortfolioCard
             key={project.key}
             {...project}
-
         />
     )
 }))

@@ -24,6 +24,13 @@
     "img": "github.jpg",
     "description": "Get the gist of a song using the name of the song and artist with Musixmatch API Microsoft Azures's Cognative Services.",
     "githublink": "https://github.com/AbdiZAk/Python-Projects/tree/main/Gist-Of-Song"
+  },
+  {
+    "key": 5,
+    "img": "next_restaurants.PNG",
+    "description": "Next JS App to showcase best Restaurants in Syracuse, That uses WordPress as a Content Management System.",
+    "githublink": "https://github.com/AbdiZAk/nextjs-restaurants",
+    "demolink": "https://nextjs-restaurants-one.vercel.app/"
   }
 
 ]

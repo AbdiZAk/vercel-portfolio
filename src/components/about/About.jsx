@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css'
-import {FaAward} from "react-icons/fa";
-import {FiGrid} from 'react-icons/fi'
+import {GiAchievement} from "react-icons/gi";
+import {FaTasks} from 'react-icons/fa'
 
 const About = () => {
 
@@ -18,12 +18,12 @@ const About = () => {
                 <div className="about__content">
                     <div className="about__cards">
                         <article className="about__card">
-                            <FaAward className={'icons'}/>
+                            <GiAchievement className={'icons'}/>
                             <h5>Experience</h5>
                             <small>2+ Years of Coding</small>
                         </article>
                         <article className="about__card">
-                            <FiGrid className={'icons'}/>
+                            <FaTasks className={'icons'}/>
                             <h5>Projects</h5>
                             <small>10+ Completed Projects</small>
                         </article>

@@ -5,6 +5,7 @@ import ExperienceSkillsCard from "./ExperienceSkillsCard";
 import FrontEndSkills from '../../assets/frontend_skills.json'
 import BackEndSkills from '../../assets/backend_skills.json'
 
+
 const Experience = () => {
 
     const FrontEndCard = FrontEndSkills.map((skill =>{
@@ -26,7 +27,6 @@ const Experience = () => {
             />
         )
     }))
-
 
     return (
         <section id={"experience"}>

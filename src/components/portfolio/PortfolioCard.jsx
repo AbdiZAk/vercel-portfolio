@@ -18,7 +18,6 @@ const PortfolioCard = (props) => {
                     <p>{props.description}</p>
                     <a className={'btn btn-primary'} href={props.githublink} target="_blank">GitHub</a>
                     {props.demolink &&  <a className={'btn'} href={props.demolink} target="_blank">Demo</a>}
-
                 </div>
 
             </div>

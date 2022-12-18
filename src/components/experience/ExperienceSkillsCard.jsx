@@ -1,11 +1,13 @@
 import React from "react";
-import {FaCheckSquare} from 'react-icons/fa'
+import {BsFillPatchCheckFill} from 'react-icons/bs'
+
 
 const ExperienceSkillsCard = (props) => {
     const {title, level} = props
     return (
             <article className={"experience__details"}>
-                <FaCheckSquare className={'experience__details-icon'}/>
+                <BsFillPatchCheckFill className={'experience__details-icon'}/>
+
                 <div>
                     <h4>{title}</h4>
                     <small className={"text-light"}>{level}</small>
@@ -14,4 +16,5 @@ const ExperienceSkillsCard = (props) => {
 
     )
 }
+
 export default ExperienceSkillsCard;

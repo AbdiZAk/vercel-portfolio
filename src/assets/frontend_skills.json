@@ -11,17 +11,32 @@
   },
   {
     "key": 3,
+    "title": "SASS",
+    "level": "Experienced"
+  },
+  {
+    "key": 4,
     "title": "JavaScript",
     "level": "Intermediate"
   },
   {
-    "key": 4,
-    "title": "React",
+    "key": 5,
+    "title": "React js",
     "level": "Intermediate"
   },
   {
-    "key": 5,
+    "key": 6,
     "title": "Bootstrap",
     "level": "Intermediate"
-  }
+  },
+  {
+    "key": 7,
+    "title": "Next Js",
+    "level": "Intermediate"
+  },
+  {
+    "key": 8,
+    "title": "WordPress",
+    "level": "Intermediate"
+   }
 ]
