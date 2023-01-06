@@ -2,33 +2,33 @@
   {
     "key": 1,
     "title": "Node JS",
-    "level": "Intermediate"
+    "icon_slug": "node"
   },
   {
     "key": 2,
     "title": "Django",
-    "level": "Intermediate"
+    "icon_slug": "django"
   },
   {
     "key": 3,
     "title": "PostgresSQL",
-    "level": "Basic"
+    "icon_slug": "postgresql"
   },
   {
     "key": 4,
     "title": "MySQL",
-    "level": "Experienced"
+    "icon_slug": "mysql"
   },
   {
     "key": 5,
     "title": "Python",
-    "level": "Experienced"
+    "icon_slug": "python"
   },
 
   {
     "key": 6,
     "title": "PHP",
-    "level": "Intermediate"
+    "icon_slug": "php"
    }
 
 ]

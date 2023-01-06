@@ -92,10 +92,6 @@
 
 /* =========== Media queries small ============*/
 @media screen and (max-width: 600px) {
-    #about {
-        margin-top: 0rem;
-    }
-
     .about__cards{
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
@@ -118,6 +114,13 @@
     }
 }
 
+/* =========== Media queries tablet ============*/
+@media screen and (max-width: 772px) {
+    #about {
+        margin-top: 26rem;
+    }
+
+}
 
 
 

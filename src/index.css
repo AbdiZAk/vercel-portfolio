@@ -12,6 +12,7 @@
     /*--color-bg: #1f1f38;*/
     --color-bg-light: #fdfdfd;
     --color-bg: #1c192d;
+    --icon-color: rgb(89, 84, 221);
     --color-bg-variant: #2c2c6c;
     /*--color-primary: #4db5ff;*/
     --color-primary: #2ab3fc;
@@ -74,7 +75,7 @@ h1{
 
 section{
     margin-top: 8rem;
-
+ 
 }
 
 section > h2 > h5{
@@ -106,6 +107,7 @@ a:hover{
 
 .btn {
     width: max-content;
+    height: fit-content;
     display: inline-block;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;

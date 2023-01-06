@@ -1,17 +1,18 @@
 import React from "react";
-import {BsFillPatchCheckFill} from 'react-icons/bs'
 
 
 const ExperienceSkillsCard = (props) => {
-    const {title, level} = props
+    const {title, icon_slug} = props
     return (
             <article className={"experience__details"}>
-                <BsFillPatchCheckFill className={'experience__details-icon'}/>
-
+    
+                {icon_slug && <img className={'experience__details-icon'} src={require(`../../assets/icons/${icon_slug}.svg`)} alt=""/>}
+                
                 <div>
                     <h4>{title}</h4>
-                    <small className={"text-light"}>{level}</small>
+                   
                 </div>
+                
             </article>
 
     )

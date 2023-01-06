@@ -2,41 +2,41 @@
   {
     "key": 1,
     "title": "HTML",
-    "level": "Experienced"
+    "icon_slug": "html"
   },
   {
     "key": 2,
     "title": "CSS",
-    "level": "Experienced"
+    "icon_slug": "css"
   },
   {
     "key": 3,
     "title": "SASS",
-    "level": "Experienced"
+    "icon_slug": "sass"
   },
   {
     "key": 4,
     "title": "JavaScript",
-    "level": "Intermediate"
+    "icon_slug": "javascript"
   },
   {
     "key": 5,
     "title": "React js",
-    "level": "Intermediate"
+    "icon_slug": "react"
   },
   {
     "key": 6,
     "title": "Bootstrap",
-    "level": "Intermediate"
+    "icon_slug": "bootstrap"
   },
   {
     "key": 7,
     "title": "Next Js",
-    "level": "Intermediate"
+    "icon_slug": "next"
   },
   {
     "key": 8,
     "title": "WordPress",
-    "level": "Intermediate"
+    "icon_slug": "wordpress"
    }
 ]

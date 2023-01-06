@@ -14,6 +14,7 @@ const Experience = () => {
             <ExperienceSkillsCard
                 key={skill.key}
                 {...skill}
+                
             />
         )
     }))
@@ -22,8 +23,9 @@ const Experience = () => {
         return (
 
             <ExperienceSkillsCard
-                {...skill}
                 key={skill.key}
+                {...skill}
+                
             />
         )
     }))
@@ -48,7 +50,6 @@ const Experience = () => {
                     <div className={"experience__content"}>
                         {BackEndCard}
                     </div>
-
                 </div>
 
             </div>
