@@ -63,10 +63,13 @@ const Contact = () => {
 
             <div className="container contact__container">
                 <form ref={form} onSubmit={sendEmail}>
-                    <input name="name" type="text" className="feedback-input" placeholder="Name" required/>
-                    <input name="email" type="text" className="feedback-input" placeholder="Email" required/>
-                    <textarea name="message" className="feedback-input" placeholder="Message"/>
-                    <input type="submit" className={'submit'} value="Send"/>
+                    <div className='form-input-div'>
+                        <input name="name" type="text" className="feedback-input" placeholder="Name" required/>
+                        <input name="email" type="text" className="feedback-input" placeholder="Email" required/>
+                        <textarea name="message" className="feedback-input" placeholder="Message"/>
+                    </div>
+                        <input type="submit" className={'submit'} value="Send"/>
+            
                     <Modal
                         title={'Message Sent'}
                         show={showModal}

@@ -28,13 +28,14 @@
 }
 
 .experience__container > div h4 {
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
 }
 
 
 .experience__frontend {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
+    color: var(--color-light);
 }
 
 .experience__backend {
@@ -54,14 +55,12 @@
     display: flex;
     gap: 1rem;
     justify-content: start;
-    /* align-items: center; */
-    text-align: left;
+    align-items: center;
 }
 
 .experience__details-icon {
     color: blue;
     width: 20px;
-    margin-top: 6px;
     color: var(--color-gold);
 }
 
