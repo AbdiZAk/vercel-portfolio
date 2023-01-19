@@ -4,7 +4,7 @@
     "img": "weatherapp.PNG",
     "description": "This is a Full Stack Weather App that I've created With Node.Js Express and Two APIs for weather data and autocomplete. ",
     "githublink": "https://github.com/AbdiZAk/FullStack-Weather-App",
-    "demolink": "https://ayweather.herokuapp.com"
+    "demolink": "https://ayweather.vercel.app"
   },
   {
     "key": 2,
